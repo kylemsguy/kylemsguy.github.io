@@ -32,10 +32,17 @@
                     <li class="active"><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
                     <li class="active"><a href="{{ site.baseurl }}/about.html">About</a></li>
                     <li class="active"><a href="{{ site.baseurl }}/feed.xml">RSS</a></li>
+                </ul>
+                <div class="navbar-collapse collapse navbar-right">
+                  <ul class="nav navbar-nav">
+                    {% if site.twitter != '' %}
+                      <li class="active"><a href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+                    {% endif %}
                     {% if site.github != '' %}
                       <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
                     {% endif %}
-                </ul>
+                  </ul>
+                </div>
               </div>
         </div>
     </div>
