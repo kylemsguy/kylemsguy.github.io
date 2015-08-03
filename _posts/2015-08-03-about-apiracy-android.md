@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Piracy
+title: About Anti-Piracy and Android
 comments: true
 ---
 Ever since I became interested in computers and other electronic devices, I always wanted to do more with them, sometimes beyond what the manufacturer intended.
