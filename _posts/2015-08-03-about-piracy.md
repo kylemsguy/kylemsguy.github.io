@@ -35,7 +35,7 @@ The key to why I love Android is the freedom.
 The entire Android OS is open-source, so anyone who wants to can modify the OS.
 It also allows the user to sideload apks, which means that alternative app stores can exist.
 Now, I know that some phones out there are locked down almost as badly as iPhones, but they generally retain the ability to sideload apks.
-However, recently there was a new [Anti-Piracy project](https://github.com/AlmightyMegadeth00/AntiPiracySupport) that some developers have started to incorporate into ROMs, such as Exodus or BrokenOS. 
+However, recently there was a new [Anti-Piracy project](https://github.com/AlmightyMegadeth00/AntiPiracySupport), started by one of the developers of the Exodus ROM, that some developers have started to incorporate into ROMs, such as Exodus or BrokenOS. 
 What it does is look through your app's package identifier and compare it against a blacklist.
 If the app is found to be on the blacklist, it automatically uninstalls the app from the device.
 The developers behind the project claim that it's to help prevent piracy and malware.
@@ -47,6 +47,9 @@ This is extremely easy to do, and it only leads to a longer blacklist.
 Another way is simply using root access in order to disable the relevant services.
 As I understand it, the blacklist is not obfuscated on the device, so anyone with root could simply modify it.
 Furthermore, the services do not block sideloading apks, which means that if the app has the same package identifier as a legitimate app, the service can do nothing to prevent their installation without preventing a user from installing the legitimate app.
+Instead of preventing piracy, the developers have done nothing to help those who oppose piracy, restricted indifferent users, and have done nothing to stop those who pirate. 
+In fact, it can be argued that it helps those who pirate, because it gives a list of apps that are used for piracy.
+If this is not an example of the Streisand effect, I don't know what is.
 
 This project also has features that are quite close to those in malware.
 One of the key features of the services is that it removes apps that they think are either malware or for piracy.
